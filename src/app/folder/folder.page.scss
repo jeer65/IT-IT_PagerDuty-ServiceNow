@@ -1,0 +1,45 @@
+.unread-indicator {
+  background: var(--ion-color-primary);
+
+  width: 10px;
+  height: 10px;
+
+  border-radius: 100%;
+
+  position: absolute;
+
+  inset-inline-start: 12px;
+  top: 15px;
+}
+
+.metadata-end-wrapper {
+  position: absolute;
+
+  top: 10px;
+  inset-inline-end: 10px;
+
+  font-size: 0.8rem;
+
+  display: flex;
+  align-items: center;
+}
+ion-card:hover {
+  cursor: pointer;
+}
+
+ion-icon:hover {
+  color: var(--ion-color-primary);
+}
+ion-avatar {
+  margin:auto;
+    height: 36px;
+    width: 36px;
+    margin-right: 2%;
+}
+.notification {
+  font-size: 32px;
+  margin-right: 2%;
+}
+.notification:hover {
+  cursor: pointer;
+}

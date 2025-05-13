@@ -1,0 +1,7 @@
+{
+  "name": "pagerduty",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
